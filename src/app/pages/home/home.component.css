@@ -1,0 +1,26 @@
+.spotify_home-container_side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.spotify_home-container_playlist-container {
+    background-color: #191919;
+    height: 100vh;
+}
+
+.spotify_home-container_side-bar-item {    
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    margin: 10px;
+    padding-left: 18px;
+}
+
+.spotify_home-container_side-bar-item > a:hover {
+    cursor: pointer;
+    color: lightgray;
+} 
